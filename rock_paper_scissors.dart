@@ -6,7 +6,7 @@ enum Move { rock, paper, scissors }
 void main() {
   final rng = Random();
   while (true) {
-    stdout.write('Rock, paper or scissors? (r/p/s) ');
+    stdout.write('Select Rock, paper or scissors? (r/p/s) ');
     final input = stdin.readLineSync();
     if (input == 'r' || input == 'p' || input == 's') {
       var playerMove;
